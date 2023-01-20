@@ -1,1 +1,37 @@
 /* your code */
+.Content-Table{
+	border-collapse: collapse;
+	margin: 20px o;
+	font-size: 0.9 em;
+	min-width: 400px;
+	bottom-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow:0 0 20px rgba(0,0,0,0.15);
+}
+
+.Content-Table thead tr{
+	background-color: #009879;
+	color: #ffffff;
+	text-align: left;
+	font-weight: bold;
+}
+
+.Content-Table th, 
+.Content-Table td{
+	padding: 12px 15px;
+}
+
+.Content-Table tbody tr{
+	border-bottom: 1px solid #cad7ed;
+}
+.Content-Table tbody tr:nth-of-type(even){
+	background-color: #9aa1ad;
+}
+
+
+
+
+
+
+
+
